@@ -235,3 +235,26 @@ body {
         opacity: 1;
     }
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .left img {
+    height: 250px;
+  }
+
+  .right {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .message {
+    font-size: 1.3em;
+  }
+}
